@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #ebd8d9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contenedorLista {
+    border: 1px solid #e5e5e5;
+    width: 650px;
+    margin: auto;
+    box-shadow: 0px 0px 10px -5px black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.paginaDos {
+    width: 646px;
+    height: 5px;
+    margin: auto;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
 }
 
-.App-link {
-  color: #61dafb;
+.paginaTres {
+    width: 642px;
+    height: 5px;
+    margin: auto;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input {
+    width: 98%;
+    border: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+}
+
+.contenedorTarea {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tarea {
+    margin: 15px 25px;
+}
+
+.icono {
+    float: right;
+    color: white;
+}
+
+.icono:hover {
+    color: #bbbbbb;
+}
+
+.contador {
+    color: #bbbbbb;
+    font-size: 14px;
+    margin-left: 10px;
 }
